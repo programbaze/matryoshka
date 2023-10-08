@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport'
+        content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <link href="./main.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+
+  <div class='matryoshka'>
+    <div class='matryoshka__inner'>
+
+      <div class='matryoshka__item js--matryoshka-item'>
+        <div class='matryoshka__head'>
+          <div class='matryoshka__btn js--matryoshka-btn'></div>
+          <div class='matryoshka__folder'></div>
+          <div class='matryoshka__name'>Folder 1</div>
+        </div>
+        <div class='matryoshka__content js--matryoshka-content'>
+          <div class='matryoshka__item js--matryoshka-item'>
+            <div class='matryoshka__head'>
+              <div class='matryoshka__file'></div>
+              <div class='matryoshka__name'>Item 1.1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='matryoshka__item js--matryoshka-item'>
+        <div class='matryoshka__head'>
+          <div class='matryoshka__btn js--matryoshka-btn'></div>
+          <div class='matryoshka__folder'></div>
+          <div class='matryoshka__name'>Folder 2</div>
+        </div>
+        <div class='matryoshka__content js--matryoshka-content'>
+          <div class='matryoshka__item matryoshka__item_internal-plus js--matryoshka-item'>
+            <div class='matryoshka__head'>
+              <div class='matryoshka__btn js--matryoshka-btn'></div>
+              <div class='matryoshka__folder'></div>
+              <div class='matryoshka__name'>Subfolder 2.1</div>
+            </div>
+            <div class='matryoshka__content js--matryoshka-content'>
+              <div class='matryoshka__item js--matryoshka-item'>
+                <div class='matryoshka__head'>
+                  <div class='matryoshka__file'></div>
+                  <div class='matryoshka__name'>File 2.1.1</div>
+                </div>
+              </div>
+              <div class='matryoshka__item js--matryoshka-item'>
+                <div class='matryoshka__head'>
+                  <div class='matryoshka__file'></div>
+                  <div class='matryoshka__name'>File 2.1.2</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='matryoshka__item js--matryoshka-item'>
+            <div class='matryoshka__head'>
+              <div class='matryoshka__file'></div>
+              <div class='matryoshka__name'>File 2.2</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='matryoshka__item js--matryoshka-item'>
+        <div class='matryoshka__head'>
+          <div class='matryoshka__btn matryoshka__btn_minus js--matryoshka-btn'></div>
+          <div class='matryoshka__folder'></div>
+          <div class='matryoshka__name'>Folder 3</div>
+        </div>
+        <div class='matryoshka__content matryoshka__content_hide js--matryoshka-content'>
+          <div class='matryoshka__item js--matryoshka-item'>
+            <div class='matryoshka__head'>
+              <div class='matryoshka__file'></div>
+              <div class='matryoshka__name'>File 3.1</div>
+            </div>
+          </div>
+          <div class='matryoshka__item js--matryoshka-item'>
+            <div class='matryoshka__head'>
+              <div class='matryoshka__file'></div>
+              <div class='matryoshka__name'>File 3.2</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class='matryoshka__item js--matryoshka-item'>
+        <div class='matryoshka__head'>
+          <div class='matryoshka__file'></div>
+          <div class='matryoshka__name'>File 4</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+<script src="./jquery-3.6.1.min.js"></script>
+<script src="./main.js"></script>
+</body>
+</html>
