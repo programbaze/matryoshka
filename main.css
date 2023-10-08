@@ -8,7 +8,7 @@
 .matryoshka .matryoshka__btn{
     width: 24px;
     height: 24px;
-    background-image: url("./plus.svg");
+    background-image: url("./minus.svg");
     background-size: 18px;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,14 +19,14 @@
     background-color: #ffffff;
 }
 
-.matryoshka .matryoshka__btn_minus{
-    background-image: url("./minus.svg");
+.matryoshka .matryoshka__btn_plus{
+    background-image: url("./plus.svg");
 }
 
 .matryoshka .matryoshka__folder{
     width: 30px;
     height: 30px;
-    background-image: url("./folder.svg");
+    background-image: url("./opened-folder.svg");
     background-size: 26px 23px;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,6 +35,10 @@
     position: relative;
     z-index: 9;
     background-color: #ffffff;
+}
+
+.matryoshka .matryoshka__folder_close{
+    background-image: url("./folder.svg");
 }
 
 .matryoshka .matryoshka__file{
